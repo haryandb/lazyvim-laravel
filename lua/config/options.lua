@@ -16,3 +16,5 @@ vim.opt.smarttab = true
 vim.opt.cursorline = true
 
 vim.opt.cursorcolumn = true
+
+vim.opt.wrap = true
