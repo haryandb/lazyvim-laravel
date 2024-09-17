@@ -1,5 +1,10 @@
 return {
     "Exafunction/codeium.vim",
+    lazy = false,
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+        "hrsh7th/nvim-cmp",
+    },
     event = "BufEnter",
     config = function()
         -- Change '<C-g>' here to any keycode you like.
